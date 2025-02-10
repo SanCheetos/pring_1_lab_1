@@ -5,4 +5,4 @@ def calculate_average(numbers):
        total = sum(numbers)
        average = total / len(numbers)
        # Ошибка: функция должна возвращать значение
-       print(f"Среднее арифметическое: {average}")
+       return f"Среднее арифметическое: {average}"
